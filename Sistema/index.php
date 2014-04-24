@@ -8,19 +8,20 @@
         <script src="js/jquery.min.js"></script>
     </head>
     <body>
-        <header>
-            <h1>Viajeros.com</h1>
-            <h2>Viaja y disfruta</h2>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="consulta.php">Consulta</a></li>
-                <li><a href="reserva.php">Reserva</a></li>
-                <li><a href="compra.php">Compra</a></li>
-                <li><a href="contactenos.php">Contáctenos</a></li>
-            </ul>
-        </nav>
-
+        <div id="container">
+            <header>
+                <h1>Viajeros.com</h1>
+                <h2>Viaja y disfruta</h2>
+            </header>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="consulta.php">Consulta</a></li>
+                    <li><a href="reserva.php">Reserva</a></li>
+                    <li><a href="compra.php">Compra</a></li>
+                    <li><a href="contactenos.php">Contáctenos</a></li>
+                </ul>
+            </nav>
+        </div>
     </body>
 </html>
