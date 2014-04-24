@@ -15,7 +15,7 @@
             </header>
             <nav class="nav">
                 <ul>
-                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="index.php">Start</a></li>
                     <li><a href="consulta.php">Consulta</a></li>
                     <li><a href="reserva.php">Reserva</a></li>
                     <li><a href="compra.php">Compra</a></li>
