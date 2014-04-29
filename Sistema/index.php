@@ -51,11 +51,13 @@
                                 <h1>Viajeros.com</h1>
                                 <h5 class="container">&nbsp;&nbsp;&nbsp;&nbsp;Viaja y disfruta!</h5>
                             </div>
+                            <!--
                             <div class="col-md-3">
                                 <a href="#" class="thumbnail">
                                     <img src="img/avion.jpg" alt="Viajeros.com">
                                 </a>
                             </div>
+                            -->
                         </div>
                     </div>
                 </div>
