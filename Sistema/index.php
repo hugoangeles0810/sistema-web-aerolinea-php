@@ -12,6 +12,7 @@
     <body >
         <div class="container">
             <header>
+                <img class="" alt="" src="banner-empresa.jpg" width="100%"/>
                 <div class="row">
                     <div class="col-md-12">
                         <div class="navbar navbar-inverse" role="navigation">
