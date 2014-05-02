@@ -11,8 +11,7 @@
     </head>
     <body >
         <div class="container">
-            <header>
-                <img class="" alt="" src="banner-empresa.jpg" width="100%"/>
+            <header>                
                 <div class="row">
                     <div class="col-md-12">
                         <div class="navbar navbar-inverse" role="navigation">
@@ -45,27 +44,10 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="well">
-                        <div class="container">
-                            <div class="col-md-6">
-                                <h1>Viajeros.com</h1>
-                                <h5 class="container">&nbsp;&nbsp;&nbsp;&nbsp;Viaja y disfruta!</h5>
-                            </div>
-                            <!--
-                            <div class="col-md-3">
-                                <a href="#" class="thumbnail">
-                                    <img src="img/avion.jpg" alt="Viajeros.com">
-                                </a>
-                            </div>
-                            -->
-                        </div>
-                    </div>
-                </div>
+                </div>               
+                <img class="" alt="" src="banner-empresa.jpg" width="100%" />
             </header> 
         </div>
-
     </div>
 </body>
 </html>
