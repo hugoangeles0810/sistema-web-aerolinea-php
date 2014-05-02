@@ -1,3 +1,6 @@
+<?
+require_once (dirname(__FILE__).'/Model/Dao/CiudadDao.php');
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="img/favicon.ico">
         <title>.::Viajeros.com::.</title>
     </head>
     <body >
@@ -45,9 +48,21 @@
                         </div>
                     </div>
                 </div>               
-                <img class="" alt="" src="banner-empresa.jpg" width="100%" />
+                <img class="" alt="" src="img/banner-empresa.jpg" width="100%" />
             </header> 
         </div>
+        <?
+        /* Bloque de codigo solo por motivo de pruebas */
+        $br = "<br/>";
+        $obj = new CiudadDao();
+        $result = $obj->getCiudadesByIdPais(1);
+
+        for ($index = 0; $index < sizeof($result); $index++) {
+            $ciudad = $result[$index];
+            echo "Id: ".$ciudad->getId().$br;
+            echo "Nombre: ".$ciudad->getNombre().$br;
+        }
+        ?>
     </div>
 </body>
 </html>
