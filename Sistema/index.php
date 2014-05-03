@@ -3,15 +3,7 @@ require_once (dirname(__FILE__).'/Model/Dao/CiudadDao.php');
 ?>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>.::Viajeros.com::.</title>
-    </head>
+    <? include ('./Tags/head.php'); ?>
     <body >
         <div class="container">
             <header>                
@@ -39,7 +31,7 @@ require_once (dirname(__FILE__).'/Model/Dao/CiudadDao.php');
 
                                         </ul>
                                         <ul class="nav navbar-form navbar-right">
-                                            <a class="btn btn-primary">Inicia Sesion</a>
+                                            <a class="btn btn-primary" href="login.php">Inicia Sesion</a>
                                         </ul>
 
                                     </div>
